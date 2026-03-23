@@ -1,0 +1,50 @@
+# Source code (proprietary)
+src/
+experiments/
+simulator/
+paper/
+research/
+business/
+code/
+results/
+
+# Data and models
+models/
+data_cache/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.npz
+
+# Results
+*.json
+!package.json
+
+# Build artifacts
+*.aux
+*.log
+*.out
+*.bib
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment
+.venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
