@@ -86,8 +86,8 @@ All measurements include hardware/simulator labels. No cherry-picking — averag
 | 3-spin (5 qubit) | 0.984 | 0.957 | +0.028 | baseline |
 | 4-spin (7 qubit) | 0.953 | 0.745 | +0.208 | ↑ 7.4x |
 | 5-spin (9 qubit) | 0.903 | 0.644 | +0.259 | ↑ 1.25x |
-| 7-spin (transfer) | 0.539 | 0.278 | +0.261 | → stable |
-| 8-spin (transfer) | 0.514 | 0.387 | +0.127 | ↓ |
+| 7-spin | 0.539 | 0.278 | +0.261 | → stable |
+| 8-spin | 0.514 | 0.387 | +0.127 | ↓ |
 
 > Quantum advantage grows from +0.03 to +0.26 as system size increases from 3 to 5 spins. Scaling extends to 7-8 spins with appropriate initialization. All measurements on M1 Max GPU (classical simulation of quantum circuits).
 
